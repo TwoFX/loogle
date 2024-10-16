@@ -41,3 +41,7 @@ lean_lib Tests where
 lean_exe loogle where
   root := `Loogle
   supportInterpreter := true
+
+lean_exe duplicates where
+  root := `Duplicates
+  supportInterpreter := true
